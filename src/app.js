@@ -1,6 +1,6 @@
 const http = require("http");
 
-// Define the port, which should match the EXPOSE instruction in the Dockerfile
+// Define the port, which should match the EXPOSE instruction in the Dockerfile.
 const PORT = 9000;
 
 const server = http.createServer((req, res) => {
